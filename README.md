@@ -15,7 +15,10 @@ Before running the script, ensure that you have the following prerequisites inst
 
 1. Clone this repository to your local machine:
 
-2. Install the required Python dependencies:
+2. Install the required Python dependencies: 
+
+robotframework==6.0.2
+robotframework-seleniumlibrary==6.1.1
 
 3. Download and place the Chrome WebDriver executable in a directory included in your system's PATH. You can download it from [here](https://chromedriver.chromium.org/downloads).
 
@@ -26,6 +29,3 @@ Before running the script, ensure that you have the following prerequisites inst
 Execute the test using Robot Framework:
 
 robot -d results/ tests.robot
-
-
-
